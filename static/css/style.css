@@ -3,9 +3,108 @@
     margin: 0;
     box-sizing: border-box;
     outline: solid 1px red;
+    font-family: Arial, sans-serif;
 }
 
-img{
-    width: 50px;
-    height: 50px;
+.header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 2px black;
+}
+
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    padding: 1%;
+}
+
+.titulo{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-titulo{
+    display: flex;
+    flex: 2;
+}
+
+.contenedor-titulo h2{
+    font-size: 40px;
+}
+
+.contenedor-logo{
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.contenedor-logo img{
+    width: 100%;
+}
+
+.botones{
+    line-height: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    max-width: 330px;
+}
+
+.boton-inicio button{
+    width: 110px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #085394;
+    cursor: pointer;
+    border: none;
+    border: solid 1px black;
+    box-shadow: 2px 2px black;
+}
+
+.boton-registro button{
+    width: 80px;
+    height: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: #9FC5F8;
+    cursor: pointer;
+    border: none;
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: white
+}
+
+.registro{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;;
+}
+
+.registro-caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 220px;
+    min-width: 220px;
+    gap: 2%;
+}
+
+.registro-caja img{
+    width: 100%;
+    max-width: 20px;
 }
