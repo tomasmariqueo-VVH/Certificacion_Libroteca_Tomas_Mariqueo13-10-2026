@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: solid 1px red;
     font-family: Arial, sans-serif;
 }
 
@@ -152,6 +151,8 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .libro{
@@ -161,18 +162,23 @@
     align-items: center;
     max-width: 400px;
     padding: 1%;
-background-color: rgb(214, 214, 214);
+    gap: 2%;
+    background-color: rgb(214, 214, 214);
 }
 
 .contenedor-img{
     max-width: 300px;
-    max-height: 500px;
+    max-height: 400px;
     overflow: hidden;
+    outline: solid 2px black;
 }
 
 .contenedor-img img{
     width: 100%;
-    height: 500;
+}
+
+.texto{
+    text-align: center;
 }
 
 .boton-rentar button{
@@ -180,7 +186,12 @@ background-color: rgb(214, 214, 214);
     max-width: 100px;
     height: 25px;
     color: black;
+    background-color: #9FC5F8;
     font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border: solid 2px black;
+    box-shadow: 2px 2px 2px black;
 }
 
 .footer{
